@@ -34,18 +34,27 @@ cp -r local_file_address local_repository_address
 
 # 8、上传文件
 // 在本地仓库的目录下
+
 git remote -v // 查看origin连接
 
 git remote rm origin // 删除origin连接
 
+
 git branch // 查看本地分支
 
 git branch -a // 查看远程仓库分支
+
 git checkout -b new_branch_name // 切换分支
+
 git branch -d branch_name // 删除分支
 
+
 git init // 初始化一个 .git
+
 git remote add origin SSH_address // 创建origin连接
+
 git add <folder_name> // 上传指定的文件夹       {  git add . // 上传当前路径  }
+
 git commit -m "ADD <folder_name>" // 上传的文字说明 add\update\first commit等
+
 git push origin main
