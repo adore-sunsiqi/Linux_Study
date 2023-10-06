@@ -25,7 +25,7 @@ HostName github.com
 
 User git
   
-\\IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_rsa
 
 # 4、测试连接
 ssh -T git@github.com
