@@ -13,7 +13,7 @@ cat ~/.ssh/id_rsa.pub //打开文件，复制公钥
 打开GitHub上的setting，找到 SSH and GPG keys，点击 New SSH keys，复制公钥，点击 Add SSH Key。
 
 # 3、在 Linux 上配置 SSH
-touch ~/./ssh/config
+  touch ~/./ssh/config
 
 vim ~/./ssh/config
 
