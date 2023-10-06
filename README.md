@@ -15,15 +15,15 @@ cat ~/.ssh/id_rsa.pub //打开文件，复制公钥
 # 3、在 Linux 上配置 SSH
   touch ~/./ssh/config
 
-vim ~/./ssh/config
+  vim ~/./ssh/config
 
 在 config 中添加内容：配置私钥
 
-Host github.com
+  Host github.com
 
-HostName github.com
+    HostName github.com
 
-User git
+    User git
   
     IdentityFile ~/.ssh/id_rsa
 
