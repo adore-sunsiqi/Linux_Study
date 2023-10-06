@@ -19,7 +19,7 @@
 
 在 config 中添加内容：配置私钥
 
-    Host github.com
+     Host github.com
 
     HostName github.com
 
