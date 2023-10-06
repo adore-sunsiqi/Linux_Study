@@ -35,9 +35,11 @@ cp -r local_file_address local_repository_address
 # 8、上传文件
 // 在本地仓库的目录下
 git remote -v // 查看origin连接
+
 git remote rm origin // 删除origin连接
 
 git branch // 查看本地分支
+
 git branch -a // 查看远程仓库分支
 git checkout -b new_branch_name // 切换分支
 git branch -d branch_name // 删除分支
