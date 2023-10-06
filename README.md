@@ -21,11 +21,11 @@ vim ~/./ssh/config
 
 Host github.com
 
-  \n HostName github.com
+HostName github.com
+
+User git
   
-  User git
-  
-  IdentityFile ~/.ssh/id_rsa
+\n IdentityFile ~/.ssh/id_rsa
 
 # 4、测试连接
 ssh -T git@github.com
